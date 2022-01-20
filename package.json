@@ -1,0 +1,38 @@
+{
+  "name": "react-timey-app",
+  "version": "1.0.0",
+  "description": "Countdown timer app",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "4.12.3",
+    "@material-ui/icons": "4.11.2",
+    "axios": "^0.24.0",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "mongoose": "^6.1.7",
+    "react": "16.8.6",
+    "react-confetti": "6.0.1",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.2.0",
+    "react-use": "17.3.2",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"nodemon server\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "author": "Mohebullah Mir",
+  "license": "ISC"
+}

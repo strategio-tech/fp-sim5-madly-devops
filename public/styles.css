@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin: auto -16px;
+  padding: 16px 32px;
+  background-color: #34be82;
+  color: white;
+  font-size: 2rem;
+}
+body {
+  padding: 0;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  font-family: "Signika", sans-serif;
+  background-color: #eee;
+  overflow-x: hidden;
+}
+.container {
+  position: relative;
+  width: 480px;
+  background: #f2f2f2;
+  margin: 30px auto 20px auto;
+  text-align: center;
+  padding: 40px 50px;
+  border: 1px solid;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.container h4 {
+  margin-bottom: 10px;
+}
+.color {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.clickedColor {
+  border: 3px solid;
+  background-color: green;
+}
+.addContainer {
+  color: #34be82;
+}
+.noteContainer {
+  width: 395px;
+  background: #f2f2f2;
+  margin: 15px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  float: left;
+}
+.countdownDisplay {
+  display: inline-block;
+  background: rgba(40, 50, 61, 0.62);
+}
+.countdownDisplay p {
+  font-size: 1.3rem;
+  margin: 0px 10px;
+  color: white;
+}
+.digit {
+  font-size: 3.5rem;
+  color: white;
+}
+.seconds {
+  color: #d22779;
+}
+.noteContainer h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  margin: 0 auto 10px;
+  text-align: center;
+  width: 250px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #eaeaea;
+}
+button {
+  margin-top: 8px;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  float: right;
+  border-radius: 50%;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: rgba(40, 50, 61, 0.62);
+  background: transparent;
+}
