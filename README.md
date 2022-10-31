@@ -6,7 +6,6 @@ The timer component will then count down until you're event's time has arrived, 
 
 Multiple timers can be added at once and timers can be deleted whenever. Default background color is a shade of white.
 
-App has been built with the MERN stack.
 
 ### React 
 React has been used for the frontend, with the use of react hooks to update the countdown timer and background colors, as well as display all countdown timers dynamically on the screen.
@@ -21,17 +20,17 @@ Used mongoose to connect to mongoDB and store all info about our timedEvents. Da
 New Events are saved into our TimerDB.
 
 ## How to configure locally
- 1. Clone this git repository 
+### 1. Clone this git repository 
  ```
  git clone https://github.com/Mohebullah98/Countdown-Timer-App.git
  ```
- 2. Install dependencies with npm inside the project directory
+### 2. Install dependencies with npm inside the project directory
  ```
  npm install
  ```
- 3. Run the react app
+### 3. Run the react app
  ```
  npm start
  ```
- 4. Open in browser at: http://localhost:3000/
+### 4. Open in browser at: http://localhost:3000/
 
