@@ -30,10 +30,12 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name:  Install Google Chrome # Using shell script to install Google Chrome
+      working-directory: ./Tests
       run:   |
               chmod +x ./Tests/InstallChrome.sh
                           ./Tests/InstallChrome.sh 
     - name: Build with Maven
+      working-directory: ./Tests
       run: mvn -B package --file pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
