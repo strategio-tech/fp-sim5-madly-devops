@@ -35,9 +35,9 @@ jobs:
      steps:
      - uses: actions/checkout@v3
      - name: Set up JDK 17
-     - uses: actions/setup-java@v17
+       uses: actions/setup-java@v17
        with:
-         java-version:17
+         java-version: 17
      - name: Test with Maven
        run: mvn clean test
        
@@ -48,7 +48,7 @@ jobs:
      - name: Set up JDK 17
        uses: actions/setup-java@v17
        with:
-         java-version:17
+         java-version: 17
      - name: Test with Maven
        run: mvn -B package --file Tests/pom.xml base
    
