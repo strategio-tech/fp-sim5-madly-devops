@@ -31,7 +31,9 @@ jobs:
         distribution: 'temurin'
     - name:  Install Google Chrome # Using shell script to install Google Chrome
       working-directory: ./Tests
-      run:   pwd
+      run:   |
+              chmod +x InstallChrome.sh
+                          ./InstallChrome.sh 
     - name: Build with Maven
       working-directory: ./Tests
       run: mvn -B package --file pom.xml
