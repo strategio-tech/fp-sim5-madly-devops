@@ -22,7 +22,7 @@ New Events are saved into our TimerDB.
 ## How to configure locally
 ### 1. Clone this git repository 
  ```
- git clone https://github.com/Mohebullah98/Countdown-Timer-App.git
+ git clone https://github.com/strategio-tech/fp-sim6-madly-devops.git
  ```
 ### 2. Install dependencies with npm inside the project directory
  ```
@@ -30,7 +30,7 @@ New Events are saved into our TimerDB.
  ```
 ### 3. Run the react app
  ```
- npm start
+ npm run start
  ```
 ### 4. Open in browser at: http://localhost:3000/
 
