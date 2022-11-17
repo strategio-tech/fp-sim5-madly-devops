@@ -28,7 +28,7 @@ jobs:
               chmod+x ./scripts/InstallChrome.sh
                         ./scripts/InstallChrome.sh
     - name: Build with Maven
-      run: mvn -B package --file Tests/pom.xml
+      run: mvn -B package --file /home/runner/work/fp-sim6-madly-devops/fp-sim6-madly-devops/Tests/pom.xml
       
   test_1:
      runs-on: ubuntu-latest
@@ -50,7 +50,7 @@ jobs:
        with:
          java-version: 17
      - name: Test with Maven
-       run: mvn -B package --file Tests/pom.xml base
+       run: mvn -B package --file /home/runner/work/fp-sim6-madly-devops/fp-sim6-madly-devops/Tests/pom.xml base
    
    # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
      - name: Update dependency graph
