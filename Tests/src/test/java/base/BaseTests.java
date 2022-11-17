@@ -17,12 +17,12 @@ public class BaseTests {
             driverExtension="-linux";
         };
         System.setProperty("webdriver.chrome.driver","resources/chromedriver"+driverExtension);
-        driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         var headless = Boolean.parseBoolean(System.getenv("HEADLESS_CHROME")) | false;
         options.setHeadless(headless);
+        driver = new ChromeDriver(options);
         driver.get("https://63768cca14b17c0ba2094422--lucent-melba-4b5cf6.netlify.app/");
         homepage = new HomePage(driver);
     }
