@@ -32,8 +32,8 @@ jobs:
     - name:  Install Google Chrome # Using shell script to install Google Chrome
       working-directory: ./Tests
       run:   |
-              chmod +x ./Tests/InstallChrome.sh
-                          ./Tests/InstallChrome.sh 
+              chmod +x .InstallChrome.sh
+                          .InstallChrome.sh 
     - name: Build with Maven
       working-directory: ./Tests
       run: mvn -B package --file pom.xml
