@@ -2,6 +2,7 @@ package base;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import pages.HomePage;
 
@@ -23,7 +24,11 @@ public class BaseTests {
         var headless = Boolean.parseBoolean(System.getenv("HEADLESS_CHROME")) | false;
         options.setHeadless(headless);
         driver = new ChromeDriver(options);
-        driver.get("https://63768cca14b17c0ba2094422--lucent-melba-4b5cf6.netlify.app/");
+        driver.get("https://lucent-melba-4b5cf6.netlify.app/");
         homepage = new HomePage(driver);
+    }
+    @AfterClass
+    public void tearDown(){
+        driver.quit();
     }
 }
