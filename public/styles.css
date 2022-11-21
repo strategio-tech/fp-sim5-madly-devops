@@ -17,6 +17,10 @@ body {
   background-color: #eee;
   overflow-x: hidden;
 }
+.logo{
+  width: 35px;
+  margin-right: 15px;
+}
 .container {
   position: relative;
   width: 480px;
