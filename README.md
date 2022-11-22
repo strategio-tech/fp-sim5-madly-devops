@@ -9,10 +9,11 @@ Countdown timer web app where you can name an event, select a date and time for 
 
 ## Table of Contents
 1. Built With 
-2. Optimizations 
-3. Dependencies 
-4. Prerequisities
-5. Local installation 
+2. Main Features 
+3. Optimizations 
+4. Dependencies 
+5. Prerequisities
+6. Local installation 
 
 ## Built With 
 * Node.js 
@@ -21,8 +22,15 @@ Countdown timer web app where you can name an event, select a date and time for 
 * Mongoose 
 * JavaScript 
 
+## Main Features 
+* Users are able to have as many timers as they want 
+* Users are able to delete timers before and after completion.
+* Users can distinguish timers by the various color options available.
+* There's a confetti celebration at the end of each timer.
+
 ## Optimizations 
-Users will be able to edit timers
+* Users will be able to edit timers' titles 
+* Users will be able to add Timey as a widget to various devices 
 
 ## Prerequisities 
 <h3> React </h3>
@@ -44,19 +52,20 @@ New Events are saved into our TimerDB.
 [Mongodatase Documentation](https://www.mongodb.com/docs/)
 
 ## Local Installation 
-###  Clone this git repository 
+
+####  Clone this git repository 
  ```
  git clone https://github.com/strategio-tech/fp-sim6-madly-devops.git
  ```
-### Install dependencies with npm inside the project directory
+#### Install dependencies with npm inside the project directory
  ```
  npm install
  ```
-### Run the react app
+#### Run the react app
  ```
  npm run start
  ```
-### 4. Open in browswer at specified local host 
+#### Open in browswer at specified local host 
 ```
  http://localhost:3000/
  ```
