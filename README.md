@@ -1,11 +1,23 @@
 <div align = "center"> 
 <h1> Countdown Timer App </h1>
  <h4> Mern Stack Application </h4>
+ 
+ ![Screen Shot 2022-11-22 at 12 43 12 PM](https://user-images.githubusercontent.com/101071525/203384691-da7a2627-7d0d-416a-8327-a891c9f2ce1a.png)
+ 
 </div>
 
 <div align = "center">
 Countdown timer web app where you can name an event, select a date and time for that event, choose a custom background color and then add that event to your list of current events. The timer component will then count down until you're event's time has arrived, confetti will then pop! Multiple timers can be added at once and timers can be deleted whenever. Default background color is a shade of white.
 </div>
+
+<div align="center"> 
+ 
+ [Link to Timey](https://lucent-melba-4b5cf6.netlify.app/) 
+ 
+</div>
+ 
+ 
+
 
 ## Table of Contents
 1. Built With 
